@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="dark-theme">
+    <div id="background">
+      <div id="header">
+        <button class="headerButtons" onclick="goToCreatePage()">
+          <img src="images/add.png" />
+        </button>
+        <button class="headerButtons" onclick="goToSettingsPage()">
+          <img src="images/gear.png" />
+        </button>
+        <button class="headerButtons" onclick="toggleTheme()">
+          <img src="images/sun.png" />
+        </button>
+      </div>
+      <div id="notes-container"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

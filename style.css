@@ -1,0 +1,93 @@
+/*dark theme*/
+.dark-theme{
+    background-color: #343434;
+}
+.dark-theme #header{
+    background-color: #343434;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1% 1% 1% 2%;
+    margin: 2%;
+}
+
+.dark-theme #background{
+    background-color: #474747;
+    text-align: left;
+    border-radius: 30px;
+    padding: 0.3%;
+    height: 700px;
+}
+
+.dark-theme #notes-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2%;
+    padding: 1%;
+    font-family:Arial;
+}
+
+.dark-theme .headerButtons{
+    background-color: #474747;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #474747;
+}
+.dark-theme #login-form{
+    background-color: #474747;
+    border-radius: 20px;
+    margin: auto;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a8a8;
+    padding: 6% 2% 10% 2%
+}
+
+.dark-theme .login-input-field{
+    border: none;
+    background-color: #c2c1c1;
+}
+
+.dark-theme #note-form{
+    background-color: #474747;
+    border-radius: 20px;
+    margin: auto;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a8a8;
+    padding: 6% 2% 10% 2%
+}
+
+/*light theme*/
+.light-theme{
+    background-color: #ffffff;
+}
+.light-theme #header{
+    background-color: #c2c1c1;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1% 1% 1% 2%;
+    margin: 2%;
+}
+
+.light-theme #background{
+    background-color: #dddddd;
+    text-align: left;
+    border-radius: 30px;
+    padding: 0.3%;
+    height: 700px;
+}
+
+.light-theme .headerButtons{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #ffffff;
+}
+
+.light-theme #notes-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2%;
+    padding: 1%;
+    font-family:Arial;
+}

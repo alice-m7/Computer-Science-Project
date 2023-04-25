@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="dark-theme">
+    <form id="login-form">
+      <h1 id="login-header">login</h1>
+      <label for="username-input">Username:</label>
+      <input
+        type="text"
+        id="username-input"
+        placeholder="Enter username..."
+        name="username-input"
+        class="login-input-field"
+        required
+      />
+      <br />
+      <label for="password-input">Password:</label>
+      <input
+        type="password"
+        id="password-input"
+        placeholder="Enter password..."
+        name="password-input"
+        class="login-input-field"
+        required
+      />
+      <input type="submit" value="login" id="login-submit-button" />
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>
